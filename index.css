@@ -1,0 +1,49 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+    
+}
+input{
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+    padding:5px;
+    background-color: gray;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+
+}
+#resultview{
+    text-align: center;
+    height:auto;
+width:min-content;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color:whitesmoke;
+    text-align: right;
+    
+
+}
+[type="button"]{
+    margin: 5px;
+    background-color: beige;
+    box-shadow: 1px 1px  rgb(44, 41, 41);
+    
+}
+[type="button"]:active{
+    background-color: rgb(249, 252, 240);
+transform: scale3d(1.1,1.1,1.1);
+
+}
